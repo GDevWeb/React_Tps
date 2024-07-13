@@ -1,11 +1,9 @@
-import AddItemForm from "./Form/AddItemForm";
-import InitialStock from "./InitialStock";
+import StockManager from "./Form/StockManager";
 
 export default function ShoppingCartApp() {
   return (
     <>
-      <InitialStock />
-      <AddItemForm />
+      <StockManager />
     </>
   );
 }
